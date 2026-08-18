@@ -276,12 +276,6 @@ section p:last-child {
   height: auto !important;
 }
 
-.visitor-privacy {
-  margin-top: 0.75rem;
-  font-size: 0.8125rem;
-  color: var(--muted);
-}
-
 /* Footer */
 .site-footer {
   margin-top: 2rem;
