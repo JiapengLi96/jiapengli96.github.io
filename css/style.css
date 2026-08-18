@@ -249,6 +249,39 @@ section p:last-child {
   color: var(--muted);
 }
 
+/* Visitor map */
+.visitors-intro {
+  color: var(--muted);
+}
+
+.visitor-map {
+  width: 100%;
+  min-height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.visitor-map canvas,
+.visitor-map iframe,
+.visitor-map img,
+.visitor-map svg {
+  display: block;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.visitor-privacy {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
 /* Footer */
 .site-footer {
   margin-top: 2rem;
